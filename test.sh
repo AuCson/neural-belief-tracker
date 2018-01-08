@@ -1,1 +1,1 @@
-python code/nbt.py woz config/woz_stat_update.cfg
+~/anaconda2/bin/python code/nbt.py woz config/woz_camrest.cfg

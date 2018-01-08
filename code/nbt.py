@@ -1400,7 +1400,7 @@ def train_run(target_language, override_en_ontology, percentage, model_type, dat
 
         # and if we got a new high score for validation f-score, we need to save the parameters:
         if current_metric > best_f_score:
-
+            '''
             last_update = epoch
 
             if epoch < 100:
@@ -1412,7 +1412,7 @@ def train_run(target_language, override_en_ontology, percentage, model_type, dat
                     max_epoch = int(epoch * 1.2) 
                     # print "Increasing max epoch to:", max_epoch
 
-
+            '''
             print "\n ====================== New best validation metric:", round(current_metric, 4),  \
                   " - saving these parameters. Epoch is:", epoch + 1, "/", max_epoch, "---------------- ===========  \n"
 
